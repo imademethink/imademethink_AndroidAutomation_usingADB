@@ -1,0 +1,15 @@
+shell am start -n au.com.realestate.app/.ui.main.MainActivity
+shell sleep 6
+shell input tap 360 470
+shell sleep 6
+shell input tap 360 555
+shell sleep 6
+shell input text 'Sydney,%sCBD,%sNSW'
+shell sleep 6
+shell input tap 620 120
+shell sleep 6
+adb shell input touchscreen swipe 200 500 300 600
+shell sleep 6
+adb shell input touchscreen swipe 400 700 200 400
+shell sleep 6
+shell am force-stop au.com.realestate.app

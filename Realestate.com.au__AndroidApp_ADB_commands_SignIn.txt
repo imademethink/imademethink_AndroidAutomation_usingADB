@@ -1,0 +1,17 @@
+shell am start -n au.com.realestate.app/.ui.main.MainActivity
+shell sleep 6
+shell input tap 470 1200
+shell sleep 6
+shell input tap 250 1000
+shell sleep 6
+shell input text 'testuser@email123.com.au'
+shell sleep 6
+shell input tap 250 540
+shell sleep 6
+shell input text 'testuser.123'
+shell sleep 6
+shell input tap 250 700
+shell sleep 6
+shell input keyevent 4
+shell input keyevent 4
+shell am force-stop au.com.realestate.app
